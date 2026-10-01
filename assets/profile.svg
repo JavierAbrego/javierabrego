@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="652" viewBox="0 0 900 652" role="img" aria-label="Javier Abrego Lorente :: ai agents · cloud sovereignty · llm inference · rust · distributed systems">
+<title>Javier Abrego Lorente :: ai agents · cloud sovereignty · llm inference · rust · distributed systems</title>
+<style>
+text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono','Courier New',monospace;white-space:pre}
+
+
+.pulse{animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.crtbar{animation:crtbar 7s linear infinite}
+@keyframes crtbar{from{transform:translateY(0)}to{transform:translateY(732px)}}
+.flicker{animation:flicker 5s steps(1) infinite}
+@keyframes flicker{0%,100%{opacity:1}41%{opacity:.86}42%{opacity:1}77%{opacity:.92}78%{opacity:1}}
+.grow{transform-box:fill-box;transform-origin:left center;animation-timing-function:ease-out;animation-iteration-count:infinite}
+@keyframes grow0{0%,40.691%{transform:scaleX(0)}44.204%,98.048%{transform:scaleX(1)}98.087%,100%{transform:scaleX(0)}}
+@keyframes grow1{0%,41.159%{transform:scaleX(0)}44.672%,98.048%{transform:scaleX(1)}98.087%,100%{transform:scaleX(0)}}
+@keyframes grow2{0%,41.628%{transform:scaleX(0)}45.141%,98.048%{transform:scaleX(1)}98.087%,100%{transform:scaleX(0)}}
+@keyframes grow3{0%,42.096%{transform:scaleX(0)}45.609%,98.048%{transform:scaleX(1)}98.087%,100%{transform:scaleX(0)}}
+@keyframes grow4{0%,42.564%{transform:scaleX(0)}46.077%,98.048%{transform:scaleX(1)}98.087%,100%{transform:scaleX(0)}}
+@keyframes grow5{0%,43.033%{transform:scaleX(0)}46.546%,98.048%{transform:scaleX(1)}98.087%,100%{transform:scaleX(0)}}
+.mut{opacity:0;animation-name:mut;animation-iteration-count:infinite;animation-timing-function:steps(1)}
+@keyframes mut{0%,33.2%{opacity:1}33.3%,100%{opacity:0}}
+</style>
+<defs>
+
+
+<pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+  <rect width="4" height="1" fill="#000" opacity="0.35"/>
+</pattern>
+<linearGradient id="crtbar" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#00ff9c" stop-opacity="0"/>
+  <stop offset="0.85" stop-color="#00ff9c" stop-opacity="0.06"/>
+  <stop offset="1" stop-color="#00ff9c" stop-opacity="0.14"/>
+</linearGradient>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="2.2" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<pattern id="cellPattern" width="6" height="20" patternUnits="userSpaceOnUse">
+  <rect width="4.5" height="20" fill="#fff"/>
+</pattern>
+<mask id="cells" maskUnits="userSpaceOnUse" x="0" y="0" width="900" height="652">
+  <rect x="202.2" width="900" height="652" fill="url(#cellPattern)"/>
+</mask>
+<clipPath id="cmd0"><rect x="153.6" y="48.5" height="20" width="2000"><animate attributeName="width" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.04098;0.04313;0.04528;0.04742;0.04957;0.05172;0.05386;0.05601;0.05816;0.06030;0.06245;0.06460;0.06674;0.06889;0.07104;0.07319;0.07533;0.07748;0.07963;0.08177;0.98048" values="0;0;8.1;16.2;24.3;32.4;40.5;48.6;56.7;64.8;72.9;81;89.1;97.2;105.3;113.4;121.5;129.6;137.7;145.8;2000;0"/></rect></clipPath>
+<clipPath id="cmd3"><rect x="177.9" y="108.5" height="20" width="2000"><animate attributeName="width" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.13837;0.14052;0.14266;0.14481;0.14696;0.14910;0.15125;0.15340;0.15554;0.98048" values="0;0;8.1;16.2;24.3;32.4;40.5;48.6;56.7;2000;0"/></rect></clipPath>
+<clipPath id="cmd15"><rect x="177.9" y="348.5" height="20" width="2000"><animate attributeName="width" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.21995;0.22209;0.22424;0.22639;0.22853;0.23068;0.23283;0.23497;0.23712;0.23927;0.24141;0.24356;0.24571;0.98048" values="0;0;8.1;16.2;24.3;32.4;40.5;48.6;56.7;64.8;72.9;81;89.1;2000;0"/></rect></clipPath>
+<clipPath id="cmd21"><rect x="177.9" y="468.5" height="20" width="2000"><animate attributeName="width" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.30816;0.31030;0.31245;0.31460;0.31674;0.31889;0.32104;0.32319;0.32533;0.32748;0.32963;0.33177;0.33392;0.33607;0.33821;0.34036;0.34251;0.34465;0.34680;0.34895;0.35109;0.35324;0.35539;0.35753;0.35968;0.36183;0.36397;0.36612;0.36827;0.37041;0.37256;0.37471;0.37685;0.37900;0.38115;0.38329;0.38544;0.98048" values="0;0;8.1;16.2;24.3;32.4;40.5;48.6;56.7;64.8;72.9;81;89.1;97.2;105.3;113.4;121.5;129.6;137.7;145.8;153.9;162;170.1;178.2;186.3;194.4;202.5;210.6;218.7;226.8;234.9;243;251.1;259.2;267.3;275.4;283.5;2000;0"/></rect></clipPath>
+</defs>
+
+
+<rect x="0.5" y="0.5" width="899" height="651" rx="10" fill="#04070b" stroke="#123a2c"/>
+<path d="M0.5 34 H899.5" stroke="#123a2c"/>
+<rect x="0.5" y="0.5" width="899" height="34" rx="10" fill="#070c12"/>
+<rect x="0.5" y="20" width="899" height="14" fill="#070c12"/>
+<circle cx="20" cy="17" r="5.5" fill="#ff5f57"/>
+<circle cx="38" cy="17" r="5.5" fill="#febc2e"/>
+<circle cx="56" cy="17" r="5.5" fill="#28c840"/>
+<text x="450" y="21.5" text-anchor="middle" font-size="12" fill="#5b6f7e">javier@zaragoza: ~ · zsh · 900x652</text>
+<circle cx="878" cy="17" r="4" fill="#00ff9c" class="pulse"/>
+<g class="flicker">
+<text x="24" y="62" font-size="13.5"><tspan fill="#00ff9c" font-weight="700">guest@github</tspan><tspan fill="#c9d6df">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#c9d6df">$ </tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.02342;0.98048" values="0;1;0"/></text>
+<text x="153.6" y="62" font-size="13.5" fill="#ffffff" clip-path="url(#cmd0)">ssh javier@zaragoza</text>
+<text x="24" y="82" font-size="13.5" xml:space="preserve"><tspan fill="#5b6f7e">[</tspan><tspan fill="#00ff9c"> ok </tspan><tspan fill="#5b6f7e">] </tspan><tspan fill="#c9d6df">key exchange curve25519-sha256 · cipher chacha20-poly1305</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.11105;0.98048" values="0;1;0"/></text>
+<text x="24" y="102" font-size="13.5" xml:space="preserve"><tspan fill="#5b6f7e">[</tspan><tspan fill="#00ff9c"> ok </tspan><tspan fill="#5b6f7e">] </tspan><tspan fill="#c9d6df">last sync 2026-10-01 · welcome back, operator</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.12080;0.98048" values="0;1;0"/></text>
+<text x="24" y="122" font-size="13.5"><tspan fill="#00ff9c" font-weight="700">javier@zaragoza</tspan><tspan fill="#c9d6df">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#c9d6df">$ </tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.12080;0.98048" values="0;1;0"/></text>
+<text x="177.9" y="122" font-size="13.5" fill="#ffffff" clip-path="url(#cmd3)">neofetch</text>
+<text x="202.2" y="142" font-size="13.5" xml:space="preserve"><tspan fill="#00ff9c" font-weight="700">javier@zaragoza</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.17896;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="162" font-size="13.5" xml:space="preserve"><tspan fill="#5b6f7e">───────────────</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18130;0.98048" values="0;1;0"/></text>
+<text x="24" y="182" font-size="13.5" fill="#00e5ff" xml:space="preserve" filter="url(#glow)">     ██╗ █████╗ <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18365;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="182" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">name      </tspan><tspan fill="#c9d6df">Javier Abrego Lorente</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18365;0.98048" values="0;1;0"/></text>
+<text x="24" y="202" font-size="13.5" fill="#00e5ff" xml:space="preserve" filter="url(#glow)">     ██║██╔══██╗<animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18599;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="202" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">role      </tspan><tspan fill="#c9d6df">software engineer · founder</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18599;0.98048" values="0;1;0"/></text>
+<text x="24" y="222" font-size="13.5" fill="#00ff9c" xml:space="preserve" filter="url(#glow)">     ██║███████║<animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18833;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="222" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">location  </tspan><tspan fill="#c9d6df">Zaragoza, ES</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.18833;0.98048" values="0;1;0"/></text>
+<text x="24" y="242" font-size="13.5" fill="#00ff9c" xml:space="preserve" filter="url(#glow)">██   ██║██╔══██║<animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19067;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="242" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">uptime    </tspan><tspan fill="#c9d6df">12 years on GitHub (since 2014)</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19067;0.98048" values="0;1;0"/></text>
+<text x="24" y="262" font-size="13.5" fill="#ff2bd6" xml:space="preserve" filter="url(#glow)">╚█████╔╝██║  ██║<animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19301;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="262" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">shell     </tspan><tspan fill="#c9d6df">zsh + neovim + claude code</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19301;0.98048" values="0;1;0"/></text>
+<text x="24" y="282" font-size="13.5" fill="#ff2bd6" xml:space="preserve" filter="url(#glow)"> ╚════╝ ╚═╝  ╚═╝<animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19536;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="282" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">activity  </tspan><tspan fill="#c9d6df">4,205 contributions in the last 12 months</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19536;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="302" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">streak    </tspan><tspan fill="#c9d6df">4 days now · best 36 days</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.19770;0.98048" values="0;1;0"/></text>
+<text x="202.2" y="322" font-size="13.5" xml:space="preserve"><tspan fill="#00e5ff" font-weight="700">peak      </tspan><tspan fill="#c9d6df">562 in one day · 232 active days</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.20004;0.98048" values="0;1;0"/></text>
+<g><rect x="202.2" y="330.5" width="24.3" height="13.5" fill="#04070b" stroke="#123a2c" stroke-width="0.5"/><rect x="226.5" y="330.5" width="24.3" height="13.5" fill="#ff3864" stroke="#123a2c" stroke-width="0.5"/><rect x="250.8" y="330.5" width="24.3" height="13.5" fill="#00ff9c" stroke="#123a2c" stroke-width="0.5"/><rect x="275.1" y="330.5" width="24.3" height="13.5" fill="#ffb000" stroke="#123a2c" stroke-width="0.5"/><rect x="299.4" y="330.5" width="24.3" height="13.5" fill="#00e5ff" stroke="#123a2c" stroke-width="0.5"/><rect x="323.7" y="330.5" width="24.3" height="13.5" fill="#ff2bd6" stroke="#123a2c" stroke-width="0.5"/><rect x="348" y="330.5" width="24.3" height="13.5" fill="#7aa2ff" stroke="#123a2c" stroke-width="0.5"/><rect x="372.3" y="330.5" width="24.3" height="13.5" fill="#c9d6df" stroke="#123a2c" stroke-width="0.5"/><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.20238;0.98048" values="0;1;0"/></g>
+<text x="24" y="362" font-size="13.5"><tspan fill="#00ff9c" font-weight="700">javier@zaragoza</tspan><tspan fill="#c9d6df">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#c9d6df">$ </tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.20238;0.98048" values="0;1;0"/></text>
+<text x="177.9" y="362" font-size="13.5" fill="#ffffff" clip-path="url(#cmd15)">cat ~/.focus</text>
+<text x="24" y="382" font-size="13.5" xml:space="preserve"><tspan fill="#ff2bd6">&gt; </tspan><tspan fill="#ffb000" font-weight="700">AI AGENTS            </tspan><tspan fill="#c9d6df">:: fleets of autonomous agents that ship real code</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.26717;0.98048" values="0;1;0"/></text>
+<text x="24" y="402" font-size="13.5" xml:space="preserve"><tspan fill="#ff2bd6">&gt; </tspan><tspan fill="#ffb000" font-weight="700">CLOUD SOVEREIGNTY    </tspan><tspan fill="#c9d6df">:: self hosted infra: your data, your metal</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.27303;0.98048" values="0;1;0"/></text>
+<text x="24" y="422" font-size="13.5" xml:space="preserve"><tspan fill="#ff2bd6">&gt; </tspan><tspan fill="#ffb000" font-weight="700">LLM INFERENCE        </tspan><tspan fill="#c9d6df">:: open models served on bare metal GPUs</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.27888;0.98048" values="0;1;0"/></text>
+<text x="24" y="442" font-size="13.5" xml:space="preserve"><tspan fill="#ff2bd6">&gt; </tspan><tspan fill="#ffb000" font-weight="700">RUST                 </tspan><tspan fill="#c9d6df">:: fast, safe tooling and CLIs</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.28474;0.98048" values="0;1;0"/></text>
+<text x="24" y="462" font-size="13.5" xml:space="preserve"><tspan fill="#ff2bd6">&gt; </tspan><tspan fill="#ffb000" font-weight="700">DISTRIBUTED SYSTEMS  </tspan><tspan fill="#c9d6df">:: clusters, queues and consensus</tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.29059;0.98048" values="0;1;0"/></text>
+<text x="24" y="482" font-size="13.5"><tspan fill="#00ff9c" font-weight="700">javier@zaragoza</tspan><tspan fill="#c9d6df">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#c9d6df">$ </tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.29059;0.98048" values="0;1;0"/></text>
+<text x="177.9" y="482" font-size="13.5" fill="#ffffff" clip-path="url(#cmd21)">xxd /proc/self/languages --sort desc</text>
+<g>
+  <text x="24" y="502" font-size="13.5" fill="#5b6f7e">0x0000</text>
+  <rect x="88.8" y="493" width="9" height="9" fill="#dea584"/>
+  <text x="104.8" y="502" font-size="13.5" fill="#ffffff" font-weight="700">Rust</text>
+  <rect x="202.2" y="491" width="300" height="13" fill="#dea584" fill-opacity="0.08" stroke="#123a2c" stroke-width="0.5"/>
+  <g mask="url(#cells)"><rect class="grow" x="202.2" y="491" width="300" height="13" fill="#dea584" filter="url(#glow)" style="animation-name:grow0;animation-duration:25.62s"/></g>
+  <text x="514.2" y="502" font-size="13.5" fill="#00ff9c" xml:space="preserve"> 34.0%</text>
+  <text class="mut" x="579" y="502" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.29s;animation-delay:0s">9f 16 ba 51 22 1f 4d e0  <tspan fill="#5b6f7e">|+SsaUllR|</tspan></text>
+  <text class="mut" x="579" y="502" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.29s;animation-delay:-0.763s">2e 47 9c fe 17 26 4b 5f  <tspan fill="#5b6f7e">|h(z'ALE2|</tspan></text>
+  <text class="mut" x="579" y="502" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.29s;animation-delay:-1.527s">03 0e 1e 8e 6b f1 62 4d  <tspan fill="#5b6f7e">|wx-3h3!F|</tspan></text>
+  <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.40691;0.98048" values="0;1;0"/>
+</g>
+<g>
+  <text x="24" y="522" font-size="13.5" fill="#5b6f7e">0x0040</text>
+  <rect x="88.8" y="513" width="9" height="9" fill="#3178c6"/>
+  <text x="104.8" y="522" font-size="13.5" fill="#ffffff" font-weight="700">TypeScript</text>
+  <rect x="202.2" y="511" width="300" height="13" fill="#3178c6" fill-opacity="0.08" stroke="#123a2c" stroke-width="0.5"/>
+  <g mask="url(#cells)"><rect class="grow" x="202.2" y="511" width="220.59" height="13" fill="#3178c6" filter="url(#glow)" style="animation-name:grow1;animation-duration:25.62s"/></g>
+  <text x="514.2" y="522" font-size="13.5" fill="#00ff9c" xml:space="preserve"> 25.0%</text>
+  <text class="mut" x="579" y="522" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.56s;animation-delay:0s">4e 44 0f 27 55 a4 b1 92  <tspan fill="#5b6f7e">|i$2$Yycx|</tspan></text>
+  <text class="mut" x="579" y="522" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.56s;animation-delay:-0.853s">0f f0 0e bf 66 d6 e8 5a  <tspan fill="#5b6f7e">|zJ.$3P_P|</tspan></text>
+  <text class="mut" x="579" y="522" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.56s;animation-delay:-1.707s">78 1f 29 fd 00 3c 1d 1a  <tspan fill="#5b6f7e">|nE1zMEd]|</tspan></text>
+  <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.41159;0.98048" values="0;1;0"/>
+</g>
+<g>
+  <text x="24" y="542" font-size="13.5" fill="#5b6f7e">0x0080</text>
+  <rect x="88.8" y="533" width="9" height="9" fill="#3572a5"/>
+  <text x="104.8" y="542" font-size="13.5" fill="#ffffff" font-weight="700">Python</text>
+  <rect x="202.2" y="531" width="300" height="13" fill="#3572a5" fill-opacity="0.08" stroke="#123a2c" stroke-width="0.5"/>
+  <g mask="url(#cells)"><rect class="grow" x="202.2" y="531" width="150" height="13" fill="#3572a5" filter="url(#glow)" style="animation-name:grow2;animation-duration:25.62s"/></g>
+  <text x="514.2" y="542" font-size="13.5" fill="#00ff9c" xml:space="preserve"> 17.0%</text>
+  <text class="mut" x="579" y="542" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.41s;animation-delay:0s">ca 78 b6 8b 07 a5 1f fd  <tspan fill="#5b6f7e">|u`65Frm.|</tspan></text>
+  <text class="mut" x="579" y="542" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.41s;animation-delay:-0.803s">ba 4c 82 cc 43 92 08 16  <tspan fill="#5b6f7e">|_g!;Jy.w|</tspan></text>
+  <text class="mut" x="579" y="542" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.41s;animation-delay:-1.607s">cf 5e 17 a7 09 58 cb d9  <tspan fill="#5b6f7e">|#S2Nk)./|</tspan></text>
+  <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.41628;0.98048" values="0;1;0"/>
+</g>
+<g>
+  <text x="24" y="562" font-size="13.5" fill="#5b6f7e">0x00c0</text>
+  <rect x="88.8" y="553" width="9" height="9" fill="#89e051"/>
+  <text x="104.8" y="562" font-size="13.5" fill="#ffffff" font-weight="700">Shell</text>
+  <rect x="202.2" y="551" width="300" height="13" fill="#89e051" fill-opacity="0.08" stroke="#123a2c" stroke-width="0.5"/>
+  <g mask="url(#cells)"><rect class="grow" x="202.2" y="551" width="97.06" height="13" fill="#89e051" filter="url(#glow)" style="animation-name:grow3;animation-duration:25.62s"/></g>
+  <text x="514.2" y="562" font-size="13.5" fill="#00ff9c" xml:space="preserve"> 11.0%</text>
+  <text class="mut" x="579" y="562" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.61s;animation-delay:0s">59 70 d3 45 8c a7 9d d6  <tspan fill="#5b6f7e">|gL10y3@i|</tspan></text>
+  <text class="mut" x="579" y="562" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.61s;animation-delay:-0.87s">53 e5 59 9d 9a 69 fb 0b  <tspan fill="#5b6f7e">|`RWtl'!e|</tspan></text>
+  <text class="mut" x="579" y="562" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:2.61s;animation-delay:-1.74s">92 e2 54 ed f7 81 67 44  <tspan fill="#5b6f7e">|[cVT6hS\|</tspan></text>
+  <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.42096;0.98048" values="0;1;0"/>
+</g>
+<g>
+  <text x="24" y="582" font-size="13.5" fill="#5b6f7e">0x0100</text>
+  <rect x="88.8" y="573" width="9" height="9" fill="#f1e05a"/>
+  <text x="104.8" y="582" font-size="13.5" fill="#ffffff" font-weight="700">JavaScript</text>
+  <rect x="202.2" y="571" width="300" height="13" fill="#f1e05a" fill-opacity="0.08" stroke="#123a2c" stroke-width="0.5"/>
+  <g mask="url(#cells)"><rect class="grow" x="202.2" y="571" width="70.59" height="13" fill="#f1e05a" filter="url(#glow)" style="animation-name:grow4;animation-duration:25.62s"/></g>
+  <text x="514.2" y="582" font-size="13.5" fill="#00ff9c" xml:space="preserve">  8.0%</text>
+  <text class="mut" x="579" y="582" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:1.7s;animation-delay:0s">84 cb 09 03 6e 21 a4 ee  <tspan fill="#5b6f7e">|A'SfiEFN|</tspan></text>
+  <text class="mut" x="579" y="582" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:1.7s;animation-delay:-0.567s">d1 da b5 70 65 e9 1e 5f  <tspan fill="#5b6f7e">|5z7pu[Gb|</tspan></text>
+  <text class="mut" x="579" y="582" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:1.7s;animation-delay:-1.133s">5c ed 40 42 16 55 62 0a  <tspan fill="#5b6f7e">|*^S^YaIE|</tspan></text>
+  <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.42564;0.98048" values="0;1;0"/>
+</g>
+<g>
+  <text x="24" y="602" font-size="13.5" fill="#5b6f7e">0x0140</text>
+  <rect x="88.8" y="593" width="9" height="9" fill="#199f4b"/>
+  <text x="104.8" y="602" font-size="13.5" fill="#ffffff" font-weight="700">Vim Script</text>
+  <rect x="202.2" y="591" width="300" height="13" fill="#199f4b" fill-opacity="0.08" stroke="#123a2c" stroke-width="0.5"/>
+  <g mask="url(#cells)"><rect class="grow" x="202.2" y="591" width="44.12" height="13" fill="#199f4b" filter="url(#glow)" style="animation-name:grow5;animation-duration:25.62s"/></g>
+  <text x="514.2" y="602" font-size="13.5" fill="#00ff9c" xml:space="preserve">  5.0%</text>
+  <text class="mut" x="579" y="602" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:1.68s;animation-delay:0s">80 7a 3a b3 22 ca 83 e5  <tspan fill="#5b6f7e">|Zroa.p:2|</tspan></text>
+  <text class="mut" x="579" y="602" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:1.68s;animation-delay:-0.56s">ae ad af 51 cc 0a 9a 7a  <tspan fill="#5b6f7e">|LM)Cf5m:|</tspan></text>
+  <text class="mut" x="579" y="602" font-size="13.5" fill="#0b8f5a" xml:space="preserve" style="animation-duration:1.68s;animation-delay:-1.12s">9c 34 b4 9b 7d 35 6d d4  <tspan fill="#5b6f7e">|g(ny(u4r|</tspan></text>
+  <animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.43033;0.98048" values="0;1;0"/>
+</g>
+<text x="24" y="622" font-size="13.5"><tspan fill="#00ff9c" font-weight="700">javier@zaragoza</tspan><tspan fill="#c9d6df">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#c9d6df">$ </tspan><animate attributeName="opacity" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.43423;0.98048" values="0;1;0"/></text>
+<g class="blink"><rect x="-40" y="0" width="8.1" height="16.5" fill="#00ff9c">
+  <animate attributeName="x" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.02342;0.04313;0.04528;0.04742;0.04957;0.05172;0.05386;0.05601;0.05816;0.06030;0.06245;0.06460;0.06674;0.06889;0.07104;0.07319;0.07533;0.07748;0.07963;0.08177;0.08958;0.12080;0.14052;0.14266;0.14481;0.14696;0.14910;0.15125;0.15340;0.15554;0.16335;0.20238;0.22209;0.22424;0.22639;0.22853;0.23068;0.23283;0.23497;0.23712;0.23927;0.24141;0.24356;0.24571;0.25351;0.29059;0.31030;0.31245;0.31460;0.31674;0.31889;0.32104;0.32319;0.32533;0.32748;0.32963;0.33177;0.33392;0.33607;0.33821;0.34036;0.34251;0.34465;0.34680;0.34895;0.35109;0.35324;0.35539;0.35753;0.35968;0.36183;0.36397;0.36612;0.36827;0.37041;0.37256;0.37471;0.37685;0.37900;0.38115;0.38329;0.38544;0.39325;0.43423;0.98048" values="-40;153.6;161.7;169.8;177.9;186;194.1;202.2;210.3;218.4;226.5;234.6;242.7;250.8;258.9;267;275.1;283.2;291.3;299.4;307.5;-40;177.9;186;194.1;202.2;210.3;218.4;226.5;234.6;242.7;-40;177.9;186;194.1;202.2;210.3;218.4;226.5;234.6;242.7;250.8;258.9;267;275.1;-40;177.9;186;194.1;202.2;210.3;218.4;226.5;234.6;242.7;250.8;258.9;267;275.1;283.2;291.3;299.4;307.5;315.6;323.7;331.8;339.9;348;356.1;364.2;372.3;380.4;388.5;396.6;404.7;412.8;420.9;429;437.1;445.2;453.3;461.4;469.5;-40;177.9;-40"/>
+  <animate attributeName="y" calcMode="discrete" dur="25.62s" repeatCount="indefinite" keyTimes="0.00000;0.02342;0.04313;0.04528;0.04742;0.04957;0.05172;0.05386;0.05601;0.05816;0.06030;0.06245;0.06460;0.06674;0.06889;0.07104;0.07319;0.07533;0.07748;0.07963;0.08177;0.08958;0.12080;0.14052;0.14266;0.14481;0.14696;0.14910;0.15125;0.15340;0.15554;0.16335;0.20238;0.22209;0.22424;0.22639;0.22853;0.23068;0.23283;0.23497;0.23712;0.23927;0.24141;0.24356;0.24571;0.25351;0.29059;0.31030;0.31245;0.31460;0.31674;0.31889;0.32104;0.32319;0.32533;0.32748;0.32963;0.33177;0.33392;0.33607;0.33821;0.34036;0.34251;0.34465;0.34680;0.34895;0.35109;0.35324;0.35539;0.35753;0.35968;0.36183;0.36397;0.36612;0.36827;0.37041;0.37256;0.37471;0.37685;0.37900;0.38115;0.38329;0.38544;0.39325;0.43423;0.98048" values="0;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;49.5;109.5;109.5;109.5;109.5;109.5;109.5;109.5;109.5;109.5;109.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;349.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;469.5;609.5;0"/>
+</rect></g>
+</g>
+
+<rect width="900" height="652" fill="url(#scanlines)" pointer-events="none"/>
+<rect class="crtbar" x="0" y="-60" width="900" height="60" fill="url(#crtbar)" pointer-events="none"/>
+</svg>
